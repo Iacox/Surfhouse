@@ -1,0 +1,687 @@
+/*fonts*/
+
+@font-face {
+    font-family: "RalewayRegular";
+    src: url("../fonts/Raleway/Raleway-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RalewayBold";
+    src: url("../fonts/Raleway/Raleway-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RalewayExtraBold";
+    src: url("../fonts/Raleway/Raleway-ExtraBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RalewayHeavy";
+    src: url("../fonts/Raleway/Raleway-Black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RobotoBlack";
+    src: url("../fonts/Roboto/Roboto-Black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RobotoBlackItalic";
+    src: url("../fonts/Roboto/Roboto-BlackItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RobotoBold";
+    src: url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "RobotoRegular";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+div.container {
+    width: 1500px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+/*header*/
+
+header {
+    min-height: 700px;
+    width: auto;
+    padding-left: 234px;
+    padding-top: 24px;
+    padding-right: 229px;
+    background-color: rgb(171, 234, 250);
+}
+
+div.tophead {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+a.logo {
+    display: block;
+    width: 125px;
+    height: 111px;
+}
+
+div.socials {
+    margin-top: 26px;
+    width: 120px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.socials a {
+    display: inline-block;
+    height: inherit;
+    color: #f7f7f7;
+    font-size: 14px;
+}
+
+div.socials a:hover {
+    color: #fff51f;
+}
+
+fa {
+    color: #f7f7f7;
+    font-size: 16px;
+
+}
+
+.fa-twitter {
+    line-height: 16px;
+}
+
+div.botmhead {
+    width: auto;
+    margin-top: 201px;
+    padding-right: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.welcome {
+    height: 136px;
+    width: 218px;
+    margin-left: -69px;
+    padding: 82px 30px 82px 22px;
+    background-color: rgb(255, 245, 31);
+}
+
+div.welcome h2 {
+    margin: 0;
+    font-size: 30px;
+    font-family: "RalewayBold";
+    color: #333333;
+    font-weight: 700;
+    text-align: left;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    margin-left: 3px;
+
+}
+
+div.welcome p {
+    font-size: 18px;
+    font-style: italic;
+    font-family: "RalewayBold";
+    color: #333333;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 14px;
+    text-align: left;
+}
+
+div.buy {
+    width: 313px;
+    height: 169px;
+    margin-top: -93px;
+}
+
+div.buy h1 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "RalewayExtraBold";
+    color: #fff51f;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+}
+
+div.buy p {
+    margin-top: 0;
+    font-family: "RalewayRegular";
+    color: #fff51f;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+div.buy a.buy {
+    display: flex;
+    margin-top: 62px;
+    width: 124px;
+    height: 49px;
+    margin-left: 3px;
+    text-decoration: none;
+    border: 1px;
+    border-color: #fff51f;
+    background-color: #fff51f;
+}
+
+div.buy a.buy:hover {
+    cursor: pointer;
+}
+
+div.buy a.buy:focus {
+    border-color: rgb(171, 234, 250);
+}
+
+.buy span {
+    color: #000000;
+    margin: auto;
+    text-transform: uppercase;
+    font-family: "RalewayHeavy";
+    font-size: 14px;
+    font-weight: 800;
+}
+
+/*main*/
+
+div.main {
+    width: auto;
+    padding-left: 165px;
+}
+
+div.main div.left {
+    float: left;
+    margin-top: -2px;
+}
+
+div.main ul.nav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+div.main ul.nav li {
+    background-color: rgb(38, 210, 252);
+    display: block;
+    height: 37px;
+    width: 270px;
+    position: relative;
+}
+
+div.main ul.nav li a {
+    display: block;
+    width: auto;
+    height: auto;
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-family: "RobotoBlack";
+    color: #000000;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 37px;
+    text-align: left;
+    text-decoration: none;
+}
+
+div.main ul.nav li a:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+div.main ul.nav li:first-child {
+    display: block;
+    background-color: #333333;
+    color: #ffffff;
+    width: 228px;
+    height: 66px;
+    padding-left: 42px;
+    text-transform: uppercase;
+    font-family: "RobotoBold";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 66px;
+    text-align: left;
+}
+
+div.main ul.nav li ul {
+    padding: 0;
+    position: absolute;
+    top: -9999;
+    right: -9999px;
+    z-index: -1;
+    list-style-type: square;
+}
+
+div.main ul.nav li ul li:first-child {
+    height: 40px;
+    width: 155px;
+    padding: 0;
+}
+
+div.main ul.nav li ul li {
+    height: 40px;
+    width: 155px;
+    position: relative;
+}
+
+div.main ul.nav li ul li a {
+    display: block;
+    width: auto;
+    height: 100%;
+    padding-left: 27px;
+    background-color: rgb(117, 227, 254);
+    font-family: "RobotoBlack";
+    color: #000000;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 36px;
+    text-align: left;
+}
+
+div.main ul.nav li ul li a span {
+    margin: auto;
+}
+
+div.main ul.nav li ul li a:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+div.main ul.nav li ul li:hover {
+    color: #ffffff;
+}
+
+div.main ul.nav li:hover ul {
+    top: 0;
+    left: 270px;
+    z-index: 10;
+}
+
+div.main ul.nav li:hover ul li ul {
+    top: -9999;
+    left: -9999px;
+    z-index: -1;
+}
+
+div.main ul.nav li ul li ul {
+    padding: 0;
+    position: absolute;
+    top: -9999;
+    right: -9999px;
+    z-index: -1;
+    list-style-type: square;
+}
+
+div.main ul.nav li ul li ul li:first-child {
+    height: 40px;
+    width: 165px;
+    padding: 0;
+}
+
+div.main ul.nav li ul li ul li {
+    height: 40px;
+    width: 165px;
+}
+
+div.main ul.nav li ul li ul li a {
+    display: block;
+    width: auto;
+    height: 100%;
+    padding-left: 27px;
+    background-color: rgb(117, 227, 254);
+    font-family: "RobotoBlack";
+    color: #000000;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 36px;
+    text-align: left;
+}
+
+div.main ul.nav li ul li ul li a span {
+    margin: auto;
+}
+
+div.main ul.nav li ul li ul li a:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+div.main ul.nav li ul liul li:hover {
+    color: #ffffff;
+}
+
+div.main ul.nav li ul li:hover ul {
+    top: 0;
+    left: 155px;
+    z-index: 20;
+}
+
+div.main div.left div.banner {
+    background-color: #e0e0e0;
+    width: 270px;
+    height: 171px;
+    margin-top: 30px;
+    padding-top: 129px;
+}
+
+div.main div.left div.banner span {
+    display: block;
+    width: 109px;
+    font-family: "RalewayHeavy";
+    color: #333333;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 142px;
+}
+
+div.products_home {
+    margin-top: -18px;
+    margin-left: 300px;
+    background-color: #f8f8f8;
+    width: 870px;
+    padding-top: 31px;
+}
+
+div.main div.new_products_home,
+div.top_products,
+div.sale_products {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+div.main div.products_home span {
+    display: block;
+    text-transform: uppercase;
+    padding-left: 28px;
+    font-family: "RobotoBlackItalic";
+    color: #707070;
+    font-size: 22px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 31px;
+
+}
+
+div.main div.new_products_home div,
+div.top_products div,
+div.sale_products div {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+div.main div.new_products_home div a.product,
+div.main div.top_products div a.product,
+div.main div.sale_products div a.product {
+    background-color: #ffffff;
+    width: 270px;
+    height: 320px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+div.main div.new_products_home div a.product:nth-child(3n),
+div.main div.top_products div a.product:nth-child(3n),
+div.main div.sale_products div a.product:nth-child(3n) {
+    margin-right: 0;
+}
+
+div.main div.new_products_home div a.product div.new {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 0;
+    border: 23px solid transparent;
+    border-top: 23px solid #e24602;
+    border-right: 23px solid #e24602;
+}
+
+div.main div.new_products_home div a.product span.new {
+    position: absolute;
+    top: 10px;
+    right: 6px;
+    padding: 0;
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: "RobotoRegular";
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 400;
+    text-align: left;
+}
+
+div.main div.new_products_home div a.product div.hot {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 0;
+    border: 23px solid transparent;
+    border-top: 23px solid #faef03;
+    border-right: 23px solid #faef03;
+}
+
+div.main div.new_products_home div a.product span.hot {
+    position: absolute;
+    top: 10px;
+    right: 6px;
+    padding: 0;
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: "RobotoRegular";
+    color: #000000;
+    font-size: 9px;
+    font-weight: 400;
+    text-align: left;
+}
+
+div.main a.product img {
+    display: block;
+    width: 250px;
+    height: 235px;
+    background-color: #eaeaea;
+    margin: 10px;
+}
+
+div.main a.product div {
+    width: auto;
+    padding: 15px 22px 20px 26px;
+}
+
+div.main a.product div span:nth-child(1n) {
+    position: static;
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 135px;
+    float: left;
+    font-family: "RobotoBlackItalic";
+    color: #333333;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 18.012px;
+    text-align: left;
+    text-transform: none;
+}
+
+div.main a.product div span:nth-child(2n) {
+    position: static;
+    display: block;
+    float: right;
+    width: auto;
+    text-transform: none;
+    padding: 0;
+    margin: 0;
+    font-family: "RobotoBlackItalic";
+    color: #333333;
+    font-size: 18px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: right;
+}
+
+div.main a.product div span:nth-child(3n) {
+    position: static;
+    text-transform: none;
+
+    float: right;
+    padding: 0;
+    margin: 0;
+    font-family: "RobotoBlackItalic";
+    color: #e24602;
+    font-size: 14px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: right;
+    text-decoration: line-through;
+}
+
+div.main div.top_products {
+    width: 100%;
+}
+
+.brand {
+    clear: both;
+    margin-top: 30px;
+    margin-right: 165px;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.brand div {
+    width: 12.5%;
+    min-height: 160px;
+    display: flex;
+}
+
+.brand span {
+    margin: auto;
+    text-transform: uppercase;
+    font-family: "RobotoBold";
+    font-size: 34px;
+    font-weight: 700;
+    color: rgb(186, 186, 186);
+}
+
+.photos {
+    background-color: rgb(234, 234, 234);
+    min-height: 350px;
+    margin-right: 165px;
+}
+
+.photos div {
+    display: flex;
+}
+
+.hashtag {
+    min-height: 105px;
+}
+
+.hashtag span.first {
+    margin: auto;
+    font-family: "RobotoBlackItalic";
+    color: #333333;
+    font-size: 22px;
+    font-weight: 900;
+    position: relative;
+}
+
+.hashtag span.first::before {
+    position: absolute;
+    content: url(../img/insta-icon.png);
+    left: -36px;
+    top: -3px;
+}
+
+.hashtag span {
+    font-family: "RobotoBlackItalic";
+    color: #333333;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.photos div:nth-child(2) {
+    justify-content: space-between;
+}
+
+.social {
+    display: flex;
+}
+
+.social div {
+    display: flex;
+    min-height: 150px;
+    width: 390px;
+}
+
+.facebook {
+    background-color: #3b5997;
+}
+
+.twitter {
+    background-color: #3fccfd;
+}
+
+.pinterest {
+    background-color: #cb2027;
+}
+
+.social img {
+    margin: auto;
+}
+
+/*footer*/
+
+footer {
+    background-color: #373737;
+    min-height: 348px;
+}
+
+.foot {
+    margin: auto;
+    width: 1170px;
+    display: flex;
+}
