@@ -93,10 +93,9 @@ a.logo {
 
 div.socials {
     margin-top: 26px;
-    width: 120px;
+    min-width: 120px;
     height: 16px;
-    display: flex;
-    justify-content: space-between;
+    letter-spacing: 5px;
 }
 
 div.socials a {
@@ -565,8 +564,8 @@ div.main a.product div span:nth-child(2n) {
 
 div.main a.product div span:nth-child(3n) {
     position: static;
+    width: 80px;
     text-transform: none;
-
     float: right;
     padding: 0;
     margin: 0;
@@ -677,11 +676,195 @@ div.main div.top_products {
 
 footer {
     background-color: #373737;
-    min-height: 348px;
+    min-height: 273px;
+    padding-top: 75px;
+    position: relative;
 }
 
 .foot {
     margin: auto;
     width: 1170px;
     display: flex;
+    justify-content: space-between;
+}
+
+.onehalf {
+    display: flex;
+    width: 50%;
+    padding-left: 27px;
+}
+
+.onehalf div {
+    min-width: 33.3333%;
+}
+
+.foot h3 {
+    margin: 0;
+    margin-bottom: 8px;
+    padding: 0;
+    font-family: "RalewayExtraBold";
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.foot ul {
+    list-style: none;
+    padding: 0;
+    margin: 27px 0 0 0;
+}
+
+.foot a {
+    text-decoration: none;
+    font-family: "RobotoRegular";
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.foot a:hover {
+    color: #f7f7f7;
+}
+
+.twohalf {
+    display: flex;
+    width: 50%;
+}
+
+.twohalf div:nth-child(1) {
+    min-width: 55%;
+}
+
+.twohalf div:nth-child(2) {
+    min-width: 45%;
+}
+
+.twohalf form {
+    margin-left: 11px;
+}
+
+.twohalf form p {
+    width: 195px;
+    font-family: "RobotoRegular";
+    color: #f8f8f8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+.twohalf input {
+    margin: 0;
+    margin-top: 6px;
+}
+
+.email {
+    background-color: #fff51f;
+    width: 159px;
+    height: 30px;
+    text-transform: uppercase;
+    font-family: "RobotoBold";
+    color: #333333;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0;
+    padding-left: 21px;
+    border: 0;
+    line-height: 30px;
+}
+
+.submit {
+    background-color: #000000;
+    width: 71px;
+    height: 30px;
+    font-family: "RobotoRegular";
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 0;
+}
+
+.paymet {
+    margin: 0;
+    margin-top: 45px;
+    width: 267px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutus p {
+    width: 232px;
+    font-family: "RobotoRegular";
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.aboutus span {
+    margin: 0;
+    margin-top: 15px;
+    font-family: "RobotoRegular";
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.4px;
+}
+
+.aboutus span span {
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+}
+
+.aboutus a {
+    font-family: "RobotoRegular";
+    color: #faef03;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-left: 10px;
+}
+
+.downfooter {
+    min-height: 47px;
+    background-color: #333333;
+    line-height: 47px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.downfooter .foot {
+    margin: auto;
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.downfooter span {
+    display: block;
+    font-family: "RobotoRegular";
+    color: #dad9d9;
+    font-size: 12px;
+    font-weight: 400;
+    float: left;
+}
+
+.downfooter .socials {
+    letter-spacing: 5px;
+    max-width: 180px;
+    margin: 0;
+    float: right;
 }
