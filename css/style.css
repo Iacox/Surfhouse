@@ -280,10 +280,8 @@ div.main ul.nav li:first-child {
 div.main ul.nav li ul {
     padding: 0;
     position: absolute;
-    top: -9999;
-    right: -9999px;
+    display: none;
     z-index: -1;
-    list-style-type: square;
 }
 
 div.main ul.nav li ul li:first-child {
@@ -326,22 +324,21 @@ div.main ul.nav li ul li:hover {
 }
 
 div.main ul.nav li:hover ul {
+    display: block;
     top: 0;
     left: 270px;
     z-index: 10;
 }
 
 div.main ul.nav li:hover ul li ul {
-    top: -9999;
-    left: -9999px;
+    display: none;
     z-index: -1;
 }
 
 div.main ul.nav li ul li ul {
     padding: 0;
     position: absolute;
-    top: -9999;
-    right: -9999px;
+    display: none;
     z-index: -1;
     list-style-type: square;
 }
@@ -386,8 +383,23 @@ div.main ul.nav li ul liul li:hover {
 
 div.main ul.nav li ul li:hover ul {
     top: 0;
+    display: block;
     left: 155px;
     z-index: 20;
+}
+
+.secondstep a::before {
+    content: url(../img/item.jpg);
+    position: absolute;
+    left: 14px;
+    top: -3px;
+}
+
+.secondstep .arrow::after {
+    content: url(../img/arrow.png);
+    position: absolute;
+    right: 13px;
+    top: 2px;
 }
 
 div.main div.left div.banner {
