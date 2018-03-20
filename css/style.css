@@ -71,10 +71,9 @@ div.container {
 /*header*/
 
 header {
-    min-height: 700px;
+    min-height: 350px;
     width: auto;
     padding-left: 234px;
-    padding-top: 24px;
     padding-right: 229px;
     background-color: rgb(171, 234, 250);
 }
@@ -83,6 +82,8 @@ div.tophead {
     width: auto;
     display: flex;
     justify-content: space-between;
+    min-height: 326px;
+    padding-top: 24px;
 }
 
 a.logo {
@@ -121,10 +122,10 @@ fa {
 
 div.botmhead {
     width: auto;
-    margin-top: 201px;
     padding-right: 45px;
     display: flex;
     justify-content: space-between;
+    min-height: 350px;
 }
 
 div.welcome {
@@ -230,14 +231,16 @@ div.main div.left {
 
 div.main ul.nav {
     list-style-type: none;
+    background-color: #26d2fc;
     padding: 0;
+    padding-bottom: 9px;
     margin: 0;
 }
 
 div.main ul.nav li {
     background-color: rgb(38, 210, 252);
     display: block;
-    height: 37px;
+    min-height: 37px;
     width: 270px;
     position: relative;
 }
@@ -260,6 +263,12 @@ div.main ul.nav li a {
 div.main ul.nav li a:hover {
     background-color: #333333;
     color: #ffffff;
+    height: 36px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    line-height: 26px;
 }
 
 div.main ul.nav li:first-child {
@@ -275,10 +284,12 @@ div.main ul.nav li:first-child {
     font-weight: 700;
     line-height: 66px;
     text-align: left;
+    margin-bottom: 6px;
 }
 
 div.main ul.nav li ul {
     padding: 0;
+    margin: 0;
     position: absolute;
     display: none;
     z-index: -1;
@@ -288,6 +299,7 @@ div.main ul.nav li ul li:first-child {
     height: 40px;
     width: 155px;
     padding: 0;
+    margin: 0;
 }
 
 div.main ul.nav li ul li {
@@ -423,7 +435,7 @@ div.main div.left div.banner span {
     margin-left: 142px;
 }
 
-div.products_home {
+.products_home {
     margin-top: -18px;
     margin-left: 300px;
     background-color: #f8f8f8;
@@ -440,7 +452,7 @@ div.sale_products {
     background-color: #f8f8f8;
 }
 
-div.main div.products_home span {
+.products_home span {
     display: block;
     text-transform: uppercase;
     padding-left: 28px;
@@ -449,17 +461,88 @@ div.main div.products_home span {
     font-size: 22px;
     font-weight: 900;
     font-style: italic;
-    text-align: left;
     margin-bottom: 31px;
-
 }
 
-div.main div.new_products_home div,
-div.top_products div,
-div.sale_products div {
-    margin: 0;
+.productpage span {
+    font-family: "RalewayExtraBold";
+    color:  #333333;
+    font-size: 30px;
+    font-weight: 700;
     padding: 0;
-    width: 100%;
+}
+
+.productpage .links {
+    clear: none;
+    display: flex;
+    align-items: baseline;
+    padding-left: 12px;
+    font-family: "RobotoRegular";
+    color:  #989898;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-style: normal;
+    margin-bottom: 54px;
+}
+
+.links .here {
+    padding: 4px;
+    background-color: #faef03;
+}
+
+.links a {
+    font-family: "RobotoRegular";
+    color:  #989898;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.productname {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.productname .images {
+    min-width: 370px; 
+}
+
+.images img {
+    border: 2px solid #eeeeee;
+    background-color: #eaeaea;
+    background-repeat: repeat;
+}
+
+.img {
+    border: 2px solid #eeeeee;
+    background-color: #eaeaea;
+    height: 370px;
+    margin-bottom: 24px;
+}
+
+.images img:hover {
+    cursor: pointer;
+}
+
+.images .img {
+    background-image: url(../img/manysurfs.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.productname .discription {
+    width: 440px;
+    padding-right: 9px;
+}
+
+.productname img {
+    border: 2px solid #eeeeee;
+    background-color: #eaeaea;
 }
 
 div.main div.new_products_home div a.product,
@@ -470,7 +553,7 @@ div.main div.sale_products div a.product {
     height: 320px;
     float: left;
     margin-right: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 93px;
     position: relative;
 }
 
@@ -538,7 +621,7 @@ div.main a.product img {
 
 div.main a.product div {
     width: auto;
-    padding: 15px 22px 20px 26px;
+    padding: 0 22px 20px 26px;
 }
 
 div.main a.product div span:nth-child(1n) {
@@ -554,8 +637,8 @@ div.main a.product div span:nth-child(1n) {
     font-weight: 900;
     font-style: italic;
     line-height: 18.012px;
-    text-align: left;
-    text-transform: none;
+    text-transform: uppercase;
+    clear: none;
 }
 
 div.main a.product div span:nth-child(2n) {
@@ -581,6 +664,7 @@ div.main a.product div span:nth-child(3n) {
     float: right;
     padding: 0;
     margin: 0;
+    margin-top: 2px;
     font-family: "RobotoBlackItalic";
     color: #e24602;
     font-size: 14px;
@@ -659,6 +743,7 @@ div.main div.top_products {
 }
 
 .social {
+    clear: both;
     display: flex;
 }
 
@@ -683,6 +768,7 @@ div.main div.top_products {
 .social img {
     margin: auto;
 }
+
 
 /*footer*/
 
